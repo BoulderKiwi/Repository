@@ -1,0 +1,57 @@
+GitHub
+ Command Line
+ to see hidden files (starting with ".")
+ 	ls -a 
+
+ print working directory
+	$ pwd
+
+ change directory to downloads
+	$ cd Downloads
+ make a new directory 
+ 	$ mkdir 
+ open my .bash_profile in sublime text editor 
+  sublime .bash_profile
+
+check difference between files on Terminal
+ + for items in New not Old; - for items in Old not New
+ order matters because + or - is relative to the 1st and 2nd file to compare 
+ diff -u game_old.js game_new.js
+
+Shortcut: 
+	Command + Shift + H  --> opens the home directoryg
+
+GitHub
+ What does "HEAD" mean in Git?
+     HEAD is Gits name for the CURRENT COMMIT 
+
+Retrive stats on which field(s) in repository are changed, with (+) and (-)
+ git diff stats
+
+Compareto different git files by the git ID : "same as diff -u in Terminal"
+	$ git diff <git ID1> and <git ID2>
+
+ Copy entire repository from one computer to the next
+    $ git clone <re pository>
+    			#    $ git clone https://github/.....
+ To see log of "commits" from cloned repository
+    $ git log
+Press q and enter to exit "git log" or "git diff" and back to prompt
+    $ q
+Checking out Prior Commits
+ 	$ git checkout
+
+Create a new Git repository:
+ 	$ git init
+Show what files have changes since last commit (or to see if really a Git repository)
+ $ git status 
+Add a file to the "staging area" before commiting to the Git repository:
+  $ git add
+
+
+
+
+
+# As a reminder, running git log will show a list of the recent commits with information about them,
+# including commit IDs. Running git diff followed by two commit IDs will compare the two versions of
+# the code in those commits.

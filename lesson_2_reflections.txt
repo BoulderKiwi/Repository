@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Initializing a Git repositiory will then allow me to upload commits and view 
+	version history of the files whithin the repository.
+	Unitl I do this, no link exits to Git and my files in the computer.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    Staging area step between WD and Repository --> choosing what files are logical for the commit. 
+    Prevents commits that include add files not logically part of the commit
